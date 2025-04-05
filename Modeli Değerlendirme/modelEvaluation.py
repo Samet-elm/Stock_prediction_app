@@ -1,0 +1,1 @@
+# predictStock dosyasında işlem esnasında evaluasyon değerleri printlenir ve görsel olarak gösterilir
