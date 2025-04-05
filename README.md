@@ -12,12 +12,23 @@ Kullanıcıların şirketlere ait finansal verilere erişerek analiz yapabilmesi
 - **Backend**: Python (Flask / Django)  
 - **Veritabanı**: MSSQL
 
-
-## Düzenli bir paket yönetimi için Anaconda kullanabilirsiniz
-
 ## Gerekli paketler
+  
+`numpy, matplotlib, pandas, scikit-learn, keras, pillow`
+
+-Düzenli bir bağımlılık yönetimi için anaconda kullanabilirsiniz
+-Eğer Anaconda'yı henüz yüklemediyseniz, [Anaconda'yı buradan indirin](https://www.anaconda.com/products/individual) ve işletim sisteminize uygun talimatları takip edin.
+
+-Anaconda kurulduktan sonra, **Anaconda Prompt**'u (veya terminalinizi) açın ve aşağıdaki komutu çalıştırarak yeni bir sanal ortam oluşturun (env_name yerine istediğiniz ortam adını yazın ve python=3.8 yerine tercih ettiğiniz Python sürümünü belirtin):
   ```bash
-  ```pip install numpy matplotlib pandas scikit-learn keras pillow```
-
-
-
+  conda create --name env_name python=3.*
+  ```
+-Sanal ortamı başlatıp sonlandırmak için komutlar
+  ```bash
+  conda activate env_name
+  conda deactivate env_name
+  ```
+-Paketlerini indirin
+ ```bash
+  pip install numpy matplotlib pandas scikit-learn keras pillow
+  ```
