@@ -16,8 +16,8 @@ Kullanıcıların şirketlere ait finansal verilere erişerek analiz yapabilmesi
 ## Düzenli bir paket yönetimi için Anaconda kullanabilirsiniz
 
 ## Gerekli paketler
+  ```bash
+  ```pip install numpy matplotlib pandas scikit-learn keras pillow```
 
-```bash
-  pip install numpy matplotlib pandas scikit-learn keras pillow```
 
-##ncancoae
+
